@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Atividades escolares</title>
+</head>
+<body>
+
+  <h1>Atividades escolares</h1>
+
+  <nav>
+    <a href="#etapas">Etapas</a> |
+    <a href="#atividades">Atividades</a> |
+    <a href="#inscricao">Inscrição</a>
+  </nav>
+
+  <h2 id="etapas">Como participar</h2>
+  <ol>
+    <li>Escolha uma atividade.</li>
+    <li>Preencha o formulário.</li>
+    <li>Envie sua inscrição.</li>
+  </ol>
+
+  <p>Leia as orientações antes de continuar.</p>
+  <p>As atividades são destinadas aos estudantes da escola.</p>
+  <p>Consulte os horários e escolha a opção desejada.</p>
+  <p>Organize seus dados antes de preencher a inscrição.</p>
+  <p>Confira todas as informações antes de enviar.</p>
+
+  <h2 id="atividades">Atividades disponíveis</h2>
+  <table border="1">
+    <tr><th>Atividade</th><th>Turno</th></tr>
+    <tr><td>Desenvolvimento Web</td><td>Manhã</td></tr>
+    <tr><td>Robótica</td><td>Tarde</td></tr>
+  </table>
+
+  <p>Desenvolvimento Web permite conhecer a criação de páginas.</p>
+  <p>Robótica explora a construção e a programação de projetos.</p>
+  <p>Escolha a atividade de acordo com seu interesse.</p>
+  <p>Depois, vá até a seção de inscrição.</p>
+  <p>Preencha os campos com atenção.</p>
+
+  <h2 id="inscricao">Inscrição</h2>
+  <form action="https://httpbin.org/post" method="post">
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome" required>
+
+    <br><br>
+
+    <label for="atividade">Atividade:</label>
+    <select id="atividade" name="atividade">
+      <option>Desenvolvimento Web</option>
+      <option>Robótica</option>
+    </select>
+
+    <br><br>
+
+    <button type="submit">Enviar inscrição</button>
+  </form>
+
+</body>
+</html>
